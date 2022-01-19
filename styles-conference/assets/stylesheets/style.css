@@ -58,7 +58,8 @@ Custom styles
 
 body{
 	color: #888;
-	font: 300 16/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 300 16/22px  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato";
 }
 
 
@@ -161,10 +162,11 @@ h4{
 	font-size: 18px;
 }
 
-h4{
+h5{
 	color: #a9b2b9;
 	font-size: 14px;
 	font-weight: 400;
+	text-transform: uppercase;
 }
 
 strong{
@@ -190,6 +192,11 @@ a:hover{
 
 a{
 	color: #648880;
+	text-decoration: none;
+}
+
+p a {
+	border-bottom: 1px solid #dfe2e5;
 }
 
 
@@ -206,18 +213,23 @@ Primary header
 	border-top: 4px solid #648880;
 	padding: 40px 0 22px 0;
 	font-size: 48px;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: .5px;
 	line-height: 44px;
 }
 
 .tagline{
 	margin: 66px 0 22px 0;
+	text-align: right;
 }
 
 .primary-nav{
 	font-size: 14px;
 	font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
 }
-
 
 
 /*
@@ -243,6 +255,19 @@ Buttons
 /*
 =================================================
 
+Navigation
+
+=================================================
+*/
+
+.nav{
+	text-align: right;
+}
+
+
+/*
+=================================================
+
 Home
 
 =================================================
@@ -251,6 +276,7 @@ Home
 .hero{
 	line-height: 44px;
 	padding: 22px 80px 66px 80px;
+	text-align: center;
 }
 
 .hero h2{
@@ -259,6 +285,7 @@ Home
 
 .hero p{
 	font-size: 24px;
+	font-weight: 100;
 }
 
 .teaser a:hover h3{
